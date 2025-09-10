@@ -13,19 +13,21 @@ p {
   line-height: 1.6;
   color: #ffffff;
 }
-/* Sidebar styling */
-address {
-  background-color: #000000;
-  border-left: 4px solid #333;
-  padding: 10px;
-  margin: 20px 0;
-}
-
-/* Green box styling */
-.green-box {
-  background-color: #4CAF50;
-  color: white;
+/* Style for the sidebar next to "Press Contact" */
+.sidebar {
+  background-color: #ffffff; 
+  color: rgb(0, 0, 0);
   padding: 15px;
-  margin-top: 20px;
+  width: 120px;
+  float: right;
+  border-radius: 5px;
+}
+/* Style for the green box at the bottom (footer) */
+footer {
+  background-color: #247e4a; /* A forrest shaded green */
+  color: white;
+  padding: 20px;
+  text-align: center;
+  margin-top: 40px;
   border-radius: 5px;
 }
